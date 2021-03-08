@@ -1,0 +1,21 @@
+kubernetes - orchestrator
+it organises and runs containers
+it provides hardware to the containers
+it facilates communication between containers
+It maintains the state of application
+
+
+
+MASTER
+API Server - only way to communicate to K8s
+etcd - key:value pair DB,stores all the configuration of pods running in K8s
+Scheduler: to schedule the Pods
+Controller: to sync between etcd and scheduler
+
+NODES:
+Node: - Server where pods will run
+Kube-proxy - networking
+kubelets - for running containers
+PODS - a container or group of containers
+
+Azure Kubernetes service - deploy container to AKS manually and using CI-CD pipeline
